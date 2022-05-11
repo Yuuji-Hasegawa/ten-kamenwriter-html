@@ -1,3 +1,6 @@
+:root {
+  --color-brandcolor: 29,42,39;
+}
 .App {
   text-align: center;
 }
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgb(var(--color-brandcolor));
 }
 
 @keyframes App-logo-spin {
