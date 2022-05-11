@@ -27,6 +27,7 @@ specifiers:
   react-dom: ^18.0.0
   sass: ^1.51.0
   sharp: ^0.30.4
+  smoothscroll-polyfill: ^0.4.4
   vite: ^2.9.7
 
 dependencies:
@@ -58,6 +59,7 @@ devDependencies:
   prettier: 2.6.2
   sass: 1.51.0
   sharp: 0.30.4
+  smoothscroll-polyfill: 0.4.4
   vite: 2.9.8_sass@1.51.0
 
 packages:
@@ -3490,6 +3492,10 @@ packages:
     dependencies:
       ansi-styles: 6.1.0
       is-fullwidth-code-point: 4.0.0
+    dev: true
+
+  /smoothscroll-polyfill/0.4.4:
+    resolution: {integrity: sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==}
     dev: true
 
   /sort-keys-length/1.0.1:
