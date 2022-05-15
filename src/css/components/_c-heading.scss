@@ -13,3 +13,15 @@
     }
   }
 }
+.c-topic-title {
+  font-weight: setting.fontweight(b);
+  line-height: setting.lineheight(heading);
+  margin: setting.spaces(s) 0;
+  font-size: setting.fontsize(m);
+  line-height: setting.lineheight(heading);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: calc(setting.fontsize(m) * setting.lineheight(heading) * 2);
+  text-overflow: ellipsis;
+}

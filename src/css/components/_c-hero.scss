@@ -10,7 +10,6 @@
     height: 100%;
     background: var(--c-bg);
     opacity: setting.animes(opacity);
-    //z-index: -1;
     left: 0;
     top: 0;
   }
@@ -40,6 +39,7 @@
       calc((10vw - setting.fontsize(s) * 3) * 999),
       setting.fontsize(xl)
     );
+    font-style: italic;
   }
   &_tagline {
     margin-top: setting.fontsize(m);

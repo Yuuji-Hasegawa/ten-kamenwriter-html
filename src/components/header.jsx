@@ -51,7 +51,7 @@ export const Header = () => {
         <div className='o-cover o-cover:sidebar'>
           <div className='o-box o-box:sidebar'>
             <h2 className='c-heading c-heading:sidebar'>カテゴリー</h2>
-            <div class='o-stack'>
+            <div className='o-stack'>
               <a className='c-link c-link:cat'>ダミーテキスト</a>
               <a className='c-link c-link:cat'>ダミーテキスト</a>
               <a className='c-link c-link:cat'>ダミーテキスト</a>
@@ -89,7 +89,7 @@ export const Header = () => {
           </nav>
           <div className='o-box o-box:sidebar'>
             <h2 className='c-heading c-heading:sidebar'>関連サイト</h2>
-            <div class='o-stack'>
+            <div className='o-stack'>
               <a className='c-link c-link:cat'>シン・仮面ライター</a>
               <a className='c-link c-link:cat'>Blue B Nose</a>
               <a className='c-link c-link:cat'>NXZ</a>

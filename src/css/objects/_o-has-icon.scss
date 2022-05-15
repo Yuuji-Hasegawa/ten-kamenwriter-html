@@ -3,4 +3,9 @@
   display: inline-flex;
   align-items: baseline;
   gap: setting.spaces(3xs);
+  &\:cat {
+    font-size: setting.fontsize(xs);
+    color: var(--c-dimmed);
+    margin-bottom: setting.spaces(3xs);
+  }
 }

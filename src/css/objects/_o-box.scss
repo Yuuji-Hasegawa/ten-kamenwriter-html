@@ -7,6 +7,13 @@
   outline-offset: -1px;
   &\:sidebar {
     margin-right: -1rem;
-    border-bottom: solid 1px var(--c-border);
+    &:not(:last-of-type) {
+      border-bottom: solid 1px var(--c-border);
+    }
+  }
+  &\:news {
+    margin-bottom: setting.spaces(base);
+    padding: setting.spaces(base);
+    background: var(--c-overlay);
   }
 }
