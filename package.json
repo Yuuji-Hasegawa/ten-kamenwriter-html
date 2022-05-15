@@ -43,6 +43,7 @@
     "postcss": "^8.4.13",
     "postcss-preset-env": "^7.5.0",
     "prettier": "^2.6.2",
+    "react-intersection-observer": "^9.1.0",
     "sass": "^1.51.0",
     "sharp": "^0.30.4",
     "smoothscroll-polyfill": "^0.4.4",

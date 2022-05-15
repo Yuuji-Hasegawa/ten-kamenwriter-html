@@ -1,0 +1,12 @@
+@use '../settings' as setting;
+@use '../tools' as tool;
+
+.o-box {
+  padding: setting.spaces(base);
+  outline: 1px transparent;
+  outline-offset: -1px;
+  &\:sidebar {
+    margin-right: -1rem;
+    border-bottom: solid 1px var(--c-border);
+  }
+}

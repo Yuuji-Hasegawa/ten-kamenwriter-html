@@ -1,0 +1,43 @@
+@use '../settings' as setting;
+.o-has-icon {
+  display: inline-flex;
+  align-items: baseline;
+  gap: setting.spaces(3xs);
+  &\:header-logo,
+  &\:footer-logo {
+    align-items: center;
+    &:visited {
+      color: inherit;
+    }
+    &:hover,
+    &:focus {
+      color: inherit;
+    }
+  }
+  &\:header-logo {
+    padding: 13px;
+  }
+  &\:footer-logo {
+    justify-content: center;
+  }
+  &__logo-icon {
+    width: 24px;
+    height: 24px;
+    &\:footer-logo {
+      width: 38px;
+      height: 38px;
+    }
+  }
+  &__logo-label {
+    font-weight: setting.fontweight(b);
+    line-height: setting.lineheight(heading);
+    font-size: setting.fontsize(m);
+    color: var(--c-txt);
+    margin-left: setting.spaces(2xs);
+    letter-spacing: -0.05ch;
+    &\:footer-logo {
+      margin-left: setting.spaces(xs);
+      font-size: setting.fontsize(l);
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@use '../settings' as setting;
+.newsList {
+  & > * + * {
+    margin-top: setting.spaces(m);
+  }
+}
+.time {
+  font-weight: setting.fontweight(b);
+  letter-spacing: -0.05ch;
+}
+.link {
+  display: block;
+  font-weight: setting.fontweight(b);
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: setting.spaces(xs);
+  align-items: flex-start;
+  > * + * {
+    flex-grow: 1;
+    flex-basis: calc((540px - 100vw) * 999);
+  }
+}
+.btn {
+  margin: setting.spaces(base) 0 0 auto;
+}
+.heading {
+  font-weight: setting.fontweight(b);
+  line-height: setting.lineheight(heading);
+  font-size: clamp(setting.fontsize(l), calc((100vw - 650px) * 999), setting.fontsize(xl));
+  & + * {
+    margin-top: setting.spaces(l);
+  }
+}

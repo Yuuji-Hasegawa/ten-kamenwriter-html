@@ -1,0 +1,42 @@
+@use '../settings' as setting;
+.outer {
+  gap: calc(setting.spaces(base) * 3) setting.spaces(base);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-bottom: calc(setting.spaces(base) * 3);
+}
+.title {
+  font-weight: setting.fontweight(b);
+  line-height: setting.lineheight(heading);
+  margin: setting.spaces(s) 0;
+  font-size: setting.fontsize(m);
+  line-height: setting.lineheight(heading);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  max-height: calc(setting.fontsize(m) * setting.lineheight(heading) * 2);
+  text-overflow: ellipsis;
+}
+.memo {
+  display: block;
+  font-size: setting.fontsize(xs);
+  color: var(--c-dimmed);
+}
+.category {
+  font-size: setting.fontsize(xs);
+  color: var(--c-dimmed);
+  margin-bottom: setting.spaces(3xs);
+}
+.link {
+  color: inherit;
+}
+.heading {
+  font-weight: setting.fontweight(b);
+  line-height: setting.lineheight(heading);
+  font-size: clamp(setting.fontsize(l), calc((100vw - 650px) * 999), setting.fontsize(xl));
+  & + * {
+    margin-top: setting.spaces(l);
+  }
+}
+.btn {
+  margin: 0 auto calc(setting.spaces(base) * 3);
+}

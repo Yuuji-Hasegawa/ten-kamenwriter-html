@@ -1,0 +1,17 @@
+@use '../settings' as setting;
+.o-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  &\:nav {
+    margin-right: calc(setting.spaces(base) * -1);
+  }
+  &\:bottom-address {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    & > * + * {
+      margin-top: setting.spaces(base);
+    }
+  }
+}

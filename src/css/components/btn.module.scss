@@ -1,0 +1,18 @@
+@use '../settings' as setting;
+.btn {
+  background: var(--c-btnBg);
+  display: table;
+  padding: setting.spaces(xs) setting.spaces(s);
+  font-weight: setting.fontweight(b);
+  font-size: setting.fontsize(m);
+  appearance: none;
+  border: solid 1px transparent;
+  cursor: pointer;
+  outline: none;
+  color: var(--c-txt);
+  &:hover,
+  &:focus {
+    background: setting.brandcolor(dark);
+    color: setting.brandcolor(light);
+  }
+}
