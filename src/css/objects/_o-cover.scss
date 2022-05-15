@@ -3,12 +3,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  &\:heading {
-    margin: 0 calc(50% - 50vw) setting.spaces(l);
-    width: 100vw;
-    padding: setting.spaces(l) setting.spaces(base);
-    overflow: hidden;
-  }
   &\:sidebar {
     padding-right: 1rem;
     height: calc(100vh - 56px);
