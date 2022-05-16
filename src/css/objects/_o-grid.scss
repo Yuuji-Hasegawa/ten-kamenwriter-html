@@ -6,4 +6,9 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     margin-bottom: calc(setting.spaces(base) * 3);
   }
+  &\:sitemap {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: calc(setting.spaces(base) * 2) setting.spaces(base);
+    margin-bottom: calc(setting.spaces(base) * 2);
+  }
 }

@@ -41,4 +41,13 @@
   &\:catSingle {
     color: inherit;
   }
+  &\:mapHead {
+    font-size: calc(setting.fontsize(m) * 1.125);
+    margin-bottom: setting.spaces(base);
+  }
+  &\:mapChild {
+    font-size: setting.fontsize(m);
+    font-weight: setting.fontweight(m);
+    padding: setting.spaces(2xs) 0;
+  }
 }
