@@ -9,6 +9,7 @@
   &\:sitemap {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: calc(setting.spaces(base) * 2) setting.spaces(base);
-    margin-bottom: calc(setting.spaces(base) * 2);
+    margin: 0 auto setting.spaces(l);
+    max-width: 70em;
   }
 }

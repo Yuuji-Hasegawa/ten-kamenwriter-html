@@ -15,4 +15,8 @@
     justify-content: center;
     gap: setting.spaces(m);
   }
+  &\:related {
+    align-items: center;
+    justify-content: center;
+  }
 }

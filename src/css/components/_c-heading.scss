@@ -25,3 +25,11 @@
   max-height: calc(setting.fontsize(m) * setting.lineheight(heading) * 2);
   text-overflow: ellipsis;
 }
+.c-related-title {
+  display: table;
+  margin: 0 auto setting.spaces(base);
+  line-height: setting.lineheight(heading);
+  font-weight: setting.fontweight(b);
+  font-size: setting.fontsize(l);
+  color: var(--c-txt);
+}

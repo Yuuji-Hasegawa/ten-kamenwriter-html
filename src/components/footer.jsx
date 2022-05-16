@@ -1,8 +1,5 @@
 import React from 'react';
 import { MyImage } from './myimage';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   return (
@@ -48,7 +45,7 @@ export const Footer = () => {
           </a>
         </span>
       </div>
-      <h2 className='c-min-heading'>関連サイト</h2>
+      <h2 className='c-related-title'>関連サイト</h2>
       <div className='o-cluster o-cluster:related'>
         <a href='#' className='c-link'>
           シン・仮面ライター
@@ -63,17 +60,6 @@ export const Footer = () => {
       <a href='./' className='c-logo c-logo:footer'>
         <MyImage className='o-frame o-frame:logo' src='/img/logo.svg' alt='仮面ライター' />
       </a>
-      <div className='o-cluster o-cluster:bottom-address'>
-        <a className='c-link c-link:bottom-link' href='#'>
-          <FontAwesomeIcon icon={faEnvelope} />
-        </a>
-        <a className='c-link c-link:bottom-link' href='#' target='_blank' rel='noopener'>
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-        <a className='c-link c-link:bottom-link' href='#' target='_blank' rel='noopener'>
-          <FontAwesomeIcon icon={faTwitter} />
-        </a>
-      </div>
     </div>
   );
 };
