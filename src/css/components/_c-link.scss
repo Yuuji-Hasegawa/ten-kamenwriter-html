@@ -49,4 +49,14 @@
     font-weight: setting.fontweight(m);
     padding: setting.spaces(2xs) 0;
   }
+  &\:breadcrumb {
+    display: inline-block;
+    padding: setting.spaces(xs);
+    font-size: setting.fontsize(xs);
+    font-weight: setting.fontweight(b);
+  }
+  &\:inline {
+    display: inline-block;
+    text-decoration: underline;
+  }
 }

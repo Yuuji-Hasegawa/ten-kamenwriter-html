@@ -1,0 +1,8 @@
+@use '../settings' as setting;
+.c-list {
+  list-style-position: outside;
+  padding-left: setting.spaces(m);
+  list-style-type: disc;
+  &__item {
+  }
+}

@@ -1,0 +1,6 @@
+@use '../settings' as setting;
+.c-entry {
+  max-width: 40em;
+  margin: 0 auto setting.spaces(l);
+  line-height: setting.lineheight(body);
+}
