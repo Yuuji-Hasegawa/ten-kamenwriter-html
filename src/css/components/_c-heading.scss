@@ -18,7 +18,6 @@
   line-height: setting.lineheight(heading);
   margin: setting.spaces(s) 0;
   font-size: setting.fontsize(m);
-  line-height: setting.lineheight(heading);
   -webkit-line-clamp: 2;
   display: -webkit-box;
   overflow: hidden;
@@ -32,4 +31,13 @@
   font-weight: setting.fontweight(b);
   font-size: setting.fontsize(l);
   color: var(--c-txt);
+}
+.c-min-heading {
+  font-weight: setting.fontweight(b);
+  line-height: setting.lineheight(heading);
+  color: #fff;
+  background: setting.brandcolor(base);
+  padding: setting.spaces(xs);
+  font-size: clamp(setting.fontsize(m), calc((100vw - 650px) * 999), setting.fontsize(l));
+  margin: setting.spaces(m) 0;
 }

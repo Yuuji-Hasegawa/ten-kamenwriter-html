@@ -5,4 +5,7 @@
   list-style-type: disc;
   &__item {
   }
+  &\:inner {
+    margin-bottom: setting.spaces(m);
+  }
 }

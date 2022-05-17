@@ -19,4 +19,17 @@
       margin-top: setting.spaces(m);
     }
   }
+  &\:annouce {
+    font-size: setting.fontsize(xs);
+    color: var(--c-dimmed);
+    > li {
+      position: relative;
+      padding-left: setting.spaces(base);
+      &:before {
+        content: '※';
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
 }

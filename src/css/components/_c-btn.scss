@@ -21,4 +21,22 @@
   &\:topicList {
     margin: 0 auto calc(setting.spaces(base) * 3);
   }
+  &\:submit {
+    padding-left: setting.spaces(m);
+    padding-right: setting.spaces(m);
+    transition: all setting.animes(duration) setting.animes(timing);
+    background: setting.brandcolor(base);
+    color: #fff;
+    margin-bottom: setting.spaces(base);
+    &:disabled {
+      pointer-events: none;
+      background: var(--c-overlay);
+      color: var(--c-dimmed);
+    }
+  }
+  &\:gohome {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: setting.spaces(m);
+  }
 }
