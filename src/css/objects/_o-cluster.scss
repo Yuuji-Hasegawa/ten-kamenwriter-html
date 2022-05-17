@@ -19,4 +19,7 @@
     align-items: center;
     justify-content: center;
   }
+  &\:newsSingle {
+    margin-bottom: setting.spaces(base);
+  }
 }

@@ -35,7 +35,7 @@ export const InqInner = () => {
           万が一、一週間経っても返信がない場合は大変お手数ですが、
           <a className='c-link c-link:inline' href='mailto:info@kamenwriter.com'>
             info@kamenwriter.com
-          </a>{' '}
+          </a>
           までご連絡ください。
         </li>
       </ul>

@@ -1,4 +1,5 @@
 @use '../settings' as setting;
+.c-entry\:single h2,
 .c-heading {
   font-weight: setting.fontweight(b);
   line-height: setting.lineheight(heading);
@@ -32,6 +33,7 @@
   font-size: setting.fontsize(l);
   color: var(--c-txt);
 }
+.c-entry\:single h3,
 .c-min-heading {
   font-weight: setting.fontweight(b);
   line-height: setting.lineheight(heading);

@@ -40,6 +40,8 @@
       setting.fontsize(xl)
     );
     font-style: italic;
+    margin-left: setting.spaces(base);
+    margin-right: setting.spaces(base);
     &\:page {
       font-style: normal;
       margin-top: inherit;

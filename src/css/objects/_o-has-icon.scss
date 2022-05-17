@@ -8,4 +8,7 @@
     color: var(--c-dimmed);
     margin-bottom: setting.spaces(3xs);
   }
+  &\:time {
+    align-items: center;
+  }
 }

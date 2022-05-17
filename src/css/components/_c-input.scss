@@ -10,6 +10,10 @@
   resize: none;
   @include tool.placeholder(var(--c-separator));
 }
+.c-input-copy {
+  display: flex;
+  margin: setting.spaces(m) 0;
+}
 .c-checkbtn {
   width: setting.fontsize(s);
   height: setting.fontsize(s);

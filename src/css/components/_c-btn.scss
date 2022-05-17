@@ -39,4 +39,10 @@
     margin-right: auto;
     margin-top: setting.spaces(m);
   }
+  &\:copy {
+    flex-shrink: 0;
+  }
+  &\:cta {
+    margin-top: setting.spaces(s);
+  }
 }
