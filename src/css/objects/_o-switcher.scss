@@ -27,4 +27,13 @@
       max-width: max(calc((540px - 100vw) * 999), calc(100% - 33% - setting.spaces(base)));
     }
   }
+  &\:oneThird {
+    gap: setting.spaces(l);
+    justify-content: center;
+    > * {
+      flex-shrink: 0;
+      width: 100%;
+      max-width: max(calc(880px - 100vw) * 999, calc(33% - setting.spaces(l)));
+    }
+  }
 }

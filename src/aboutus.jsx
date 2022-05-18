@@ -6,6 +6,10 @@ import { PageHeading } from './components/pageheading';
 import { BreadCrumb } from './components/breadcrumb';
 import { Footer } from './components/footer';
 import { MyImage } from './components/myimage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartLine } from '@fortawesome/free-solid-svg-icons';
+import { faWordpress } from '@fortawesome/free-brands-svg-icons';
+import { faFile } from '@fortawesome/free-regular-svg-icons';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <p>
             ■身長：174cm
             <br />
-            ■体重：XXkg
+            ■体重：No Data
             <br />
             ■主要な言語など：HTML/CSS,Javascript,PHP,WordPress
             <br />
@@ -32,14 +36,51 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <br />
             必殺技は、歯に絹着せぬ物言いで放つ「ライダーキック」など
           </p>
-          <h2 className='c-min-heading'>主要な業務</h2>
-          <ul className='c-list u-mb-s'>
-            <li>具体的なデータの加工、コーディング</li>
-            <li>メッセージの効果的な発信、編集、校正</li>
-            <li>ペルソナの鮮明化、施策、コンテンツの検討など</li>
+          <h2 className='c-min-heading'>これまでの主な仕事</h2>
+          <ul className='o-switcher o-switcher:oneThird u-mb-m'>
+            <li className='o-stack o-stack:aboutus'>
+              <FontAwesomeIcon icon={faWordpress} size='3x' />
+              <b>HP制作</b>
+            </li>
+            <li className='o-stack o-stack:aboutus'>
+              <FontAwesomeIcon icon={faChartLine} size='3x' />
+              <b>コンサルティング</b>
+            </li>
+            <li className='o-stack o-stack:aboutus'>
+              <FontAwesomeIcon icon={faFile} size='3x' />
+              <b>文書作成</b>
+            </li>
           </ul>
+          <dl className='c-table u-mb-s'>
+            <dt className='c-table__title'>HP制作</dt>
+            <dd className='c-table__content'>
+              <ul className='c-list'>
+                <li>デザインデータや原稿を元にしたコーディングのみ</li>
+                <li>全体設計、内容の提案からサイト公開まで一式</li>
+                <li>HTMLデータのWordPress化、カートのカスタマイズなど</li>
+              </ul>
+            </dd>
+            <dt className='c-table__title'>コンサルティング</dt>
+            <dd className='c-table__content'>
+              <ul className='c-list'>
+                <li>アクセス解析や実際のコードを元にしたサイト改善</li>
+                <li>マーケティング施策の提案、ならびにサイトの改修</li>
+                <li>情報設計、コンテンツマーケティングの提案など</li>
+              </ul>
+            </dd>
+            <dt className='c-table__title'>文書作成</dt>
+            <dd className='c-table__content'>
+              <ul className='c-list'>
+                <li>原稿を元にした加筆修正、校正</li>
+                <li>会社案内の作成、文書添削、構成提案</li>
+                <li>インタビューを元にしたブログ記事作成など</li>
+              </ul>
+            </dd>
+          </dl>
           <p>
-            コーディング関連や文章絡みに強い。人が何を欲するか、発信したメッセージをどう受け止めるかにも多少明るい。デザインや抽象的なイメージ、イラストは不得手。
+            上記以外にも、SNSの運用代行や自営業経験をもとにした提案、規約の作成や事務作業のサポートなども行なっています。
+            <br />
+            <b>「コーダー×物書き×自営業」</b>でできそうなことがあれば、お声かけください。
           </p>
         </div>
       </div>

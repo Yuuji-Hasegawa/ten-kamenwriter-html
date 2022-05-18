@@ -42,4 +42,11 @@
       margin-top: setting.spaces(xs);
     }
   }
+  &\:aboutus {
+    text-align: center;
+    font-size: setting.fontsize(m);
+    & > * + * {
+      margin-top: setting.spaces(s);
+    }
+  }
 }
