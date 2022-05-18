@@ -8,4 +8,18 @@
   &\:inner {
     margin-bottom: setting.spaces(m);
   }
+  &\:redume {
+    visibility: hidden;
+    pointer-events: none;
+    height: 0;
+    opacity: 0;
+    transition: height setting.animes(duration) setting.animes(timing);
+  }
+  &\:redume-is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    height: auto;
+    padding-bottom: setting.spaces(base);
+  }
 }

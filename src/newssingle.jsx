@@ -38,37 +38,35 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </div>
         <footer className='c-news-cta'>
           <h3>この記事のお問い合わせ先</h3>
-          <dl className='c-table'>
-            <dt className='c-table__title'>facebook</dt>
-            <dd className='c-table__content'>
-              <a
-                className='c-link c-link:inline'
-                href='https://www.facebook.com/kamenwriter01'
-                target='_blank'
-                rel='noopener'
-              >
-                https://www.facebook.com/kamenwriter01
-              </a>
-            </dd>
-            <dt className='c-table__title'>twitter</dt>
-            <dd className='c-table__content'>
-              <a
-                className='c-link c-link:inline'
-                href='https://twitter.com/kamenwriter02'
-                target='_blank'
-                rel='noopener'
-              >
-                https://twitter.com/kamenwriter02
-              </a>
-            </dd>
-            <dt className='c-table__title'>E-mail</dt>
-            <dd className='c-table__content'>
-              <a className='c-link c-link:inline' href='mailto:info@kamenwriter.com' target='_blank' rel='noopener'>
-                info@kamenwriter.com
-              </a>
-            </dd>
-          </dl>
-          <a className='c-btn c-btn:cta'>お問い合わせフォームへ</a>
+          <p>
+            <b>仮面ライター 長谷川　雄治</b>
+            <br />
+            〒563-0005 茨木市五日市2-17-4
+            <br />
+            facebook :{' '}
+            <a
+              className='c-link c-link:inline'
+              href='https://www.facebook.com/kamenwriter01'
+              target='_blank'
+              rel='noopener'
+            >
+              https://www.facebook.com/kamenwriter01
+            </a>
+            <br />
+            twitter :{' '}
+            <a className='c-link c-link:inline' href='https://twitter.com/kamenwriter02' target='_blank' rel='noopener'>
+              https://twitter.com/kamenwriter02
+            </a>
+            <br />
+            Email :{' '}
+            <a className='c-link c-link:inline' href='mailto:info@kamenwriter.com' target='_blank' rel='noopener'>
+              info@kamenwriter.com
+            </a>
+            <br />
+            <a className='c-link c-link:inline' href='#'>
+              お問い合わせフォームはこちらから
+            </a>
+          </p>
         </footer>
       </article>
     </main>

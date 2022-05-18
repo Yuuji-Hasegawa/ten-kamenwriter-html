@@ -16,4 +16,14 @@
     padding: setting.spaces(base);
     background: var(--c-overlay);
   }
+  &\:redume {
+    margin-bottom: setting.spaces(base);
+    padding: setting.spaces(base) setting.spaces(base) 0 setting.spaces(base);
+    background: var(--c-overlay);
+    border: solid 1px var(--c-separator);
+  }
+  &\:bottom-author {
+    border: solid 1px var(--c-separator);
+    background: var(--c-overlay);
+  }
 }

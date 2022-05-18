@@ -32,4 +32,14 @@
       }
     }
   }
+  &\:xxs {
+    & > * + * {
+      margin-top: setting.spaces(2xs);
+    }
+  }
+  &\:xs {
+    & > * + * {
+      margin-top: setting.spaces(xs);
+    }
+  }
 }

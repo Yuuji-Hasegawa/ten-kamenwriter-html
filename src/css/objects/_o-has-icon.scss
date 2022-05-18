@@ -5,10 +5,25 @@
   gap: setting.spaces(3xs);
   &\:cat {
     font-size: setting.fontsize(xs);
-    color: var(--c-dimmed);
     margin-bottom: setting.spaces(3xs);
   }
   &\:time {
     align-items: center;
+  }
+  &\:redume {
+    display: flex;
+    font-weight: setting.fontweight(b);
+    background: var(--c-overlay);
+    padding: setting.spaces(xs) setting.spaces(base);
+    margin: calc(setting.spaces(base) * -1) calc(setting.spaces(base) * -1) 0 calc(setting.spaces(base) * -1);
+    position: relative;
+    box-sizing: content-box;
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+  }
+  &\:redume-is-open {
+    margin-bottom: setting.spaces(base);
+    border-bottom: solid 1px var(--c-separator);
   }
 }

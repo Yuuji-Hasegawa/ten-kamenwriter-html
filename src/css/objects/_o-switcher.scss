@@ -1,0 +1,13 @@
+@use '../settings' as setting;
+.o-switcher {
+  display: flex;
+  flex-wrap: wrap;
+  &\:author {
+    gap: setting.spaces(s);
+    align-items: flex-start;
+    > * + * {
+      flex-grow: 1;
+      flex-basis: calc((540px - 100vw) * 999);
+    }
+  }
+}
