@@ -10,4 +10,21 @@
       flex-basis: calc((540px - 100vw) * 999);
     }
   }
+  &\:media {
+    gap: setting.spaces(base);
+    align-items: flex-start;
+    &\:r {
+      flex-direction: row-reverse;
+    }
+    > * {
+      flex-shrink: 0;
+      width: 100%;
+    }
+    > .c-media-pict {
+      max-width: max(calc(540px - 100vw) * 999, 33%);
+    }
+    > .c-media-body {
+      max-width: max(calc((540px - 100vw) * 999), calc(100% - 33% - setting.spaces(base)));
+    }
+  }
 }

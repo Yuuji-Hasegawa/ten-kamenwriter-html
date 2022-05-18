@@ -13,6 +13,9 @@
       margin-top: setting.spaces(xs);
     }
   }
+  &\:textCenter {
+    text-align: center;
+  }
 }
 .c-topic-title {
   font-weight: setting.fontweight(b);
@@ -42,4 +45,14 @@
   padding: setting.spaces(xs);
   font-size: clamp(setting.fontsize(m), calc((100vw - 650px) * 999), setting.fontsize(l));
   margin: setting.spaces(m) 0;
+  &\:first {
+    margin-top: 0;
+  }
+}
+.c-tagline {
+  margin: setting.fontsize(m) 0;
+  font-size: setting.fontsize(l);
+  font-weight: setting.fontweight(m);
+  text-align: center;
+  line-height: setting.lineheight(heading);
 }

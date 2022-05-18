@@ -38,10 +38,6 @@
   }
   &__content {
     border-width: 1px 0 0 1px;
-    border-top-width: 1px;
-    border-left-width: 1px;
-    border-right-width: 0;
-    border-bottom-width: 0;
     border-style: solid;
     border-color: var(--c-border);
     max-width: max(calc((650px - 100vw) * 999), calc(100% - 240px));
