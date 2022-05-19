@@ -7,15 +7,14 @@ import { BreadCrumb } from './components/breadcrumb';
 import { Footer } from './components/footer';
 import { MyImage } from './components/myimage';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartLine } from '@fortawesome/free-solid-svg-icons';
-import { faWordpress } from '@fortawesome/free-brands-svg-icons';
+import { faChartLine, faCode } from '@fortawesome/free-solid-svg-icons';
 import { faFile } from '@fortawesome/free-regular-svg-icons';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
-    <BreadCrumb pageTitle='仮面ライター' pagePath='/aboutus/' />
-    <PageHeading pageTitle='仮面ライター' />
+    <BreadCrumb pageTitle='仮面ライターとは？' pagePath='/aboutus/' />
+    <PageHeading pageTitle='仮面ライターとは？' />
     <main className='o-container o-container:main'>
       <div className='o-switcher o-switcher:media'>
         <div className='c-media-pict'>
@@ -39,8 +38,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <h2 className='c-min-heading'>これまでの主な仕事</h2>
           <ul className='o-switcher o-switcher:oneThird u-mb-m'>
             <li className='o-stack o-stack:aboutus'>
-              <FontAwesomeIcon icon={faWordpress} size='3x' />
-              <b>HP制作</b>
+              <FontAwesomeIcon icon={faCode} size='3x' />
+              <b>Webサイト制作</b>
             </li>
             <li className='o-stack o-stack:aboutus'>
               <FontAwesomeIcon icon={faChartLine} size='3x' />
@@ -52,7 +51,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             </li>
           </ul>
           <dl className='c-table u-mb-s'>
-            <dt className='c-table__title'>HP制作</dt>
+            <dt className='c-table__title'>Webサイト制作</dt>
             <dd className='c-table__content'>
               <ul className='c-list'>
                 <li>デザインデータや原稿を元にしたコーディングのみ</li>
@@ -80,7 +79,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <p>
             上記以外にも、SNSの運用代行や自営業経験をもとにした提案、規約の作成や事務作業のサポートなども行なっています。
             <br />
-            <b>「コーダー×物書き×自営業」</b>でできそうなことがあれば、お声かけください。
+            <b>「エンジニア×物書き×自営業」</b>でできそうなことがあれば、お声かけください。
           </p>
         </div>
       </div>

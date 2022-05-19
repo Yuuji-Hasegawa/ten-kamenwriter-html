@@ -10,7 +10,7 @@ export const Footer = () => {
             イントロダクション
           </a>
           <a href='#' className='c-link c-link:mapChild'>
-            仮面ライターとは？
+            初めての方へ
           </a>
           <a href='#' className='c-link c-link:mapChild'>
             プロフィール
@@ -18,7 +18,7 @@ export const Footer = () => {
         </span>
         <span className='o-stack o-stack:sitemap'>
           <a href='#' className='c-link c-link:mapHead'>
-            仮面ライター
+            仮面ライターとは？
           </a>
           <a href='#' className='c-link c-link:mapChild'>
             事業案内

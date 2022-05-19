@@ -56,3 +56,8 @@
   text-align: center;
   line-height: setting.lineheight(heading);
 }
+.c-policy-title {
+  font-size: clamp(setting.fontsize(m), calc((100vw - 650px) * 999), setting.fontsize(l));
+  font-weight: setting.fontweight(b);
+  line-height: setting.lineheight(heading);
+}

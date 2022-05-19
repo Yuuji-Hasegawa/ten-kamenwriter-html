@@ -81,7 +81,7 @@ export const Header = () => {
               イントロダクション
             </a>
             <a href='#' className='c-link c-link:nav'>
-              仮面ライター
+              仮面ライターとは？
             </a>
             <a href='#' className='c-link c-link:nav'>
               これまでの記録
