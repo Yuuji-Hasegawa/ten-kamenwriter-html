@@ -21,7 +21,7 @@ export const Footer = () => {
             仮面ライターとは？
           </a>
           <a href='#' className='c-link c-link:mapChild'>
-            事業案内
+            サービスのご案内
           </a>
           <a href='#' className='c-link c-link:mapChild'>
             会社情報

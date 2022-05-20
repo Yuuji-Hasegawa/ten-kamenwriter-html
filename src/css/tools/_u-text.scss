@@ -2,3 +2,6 @@
 .u-text-accent {
   color: var(--accent);
 }
+.u-text-large {
+  font-size: setting.fontsize(l);
+}
